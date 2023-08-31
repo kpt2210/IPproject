@@ -1,0 +1,52 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .instruments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 2%;
+  }
+  .instrument {
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .instrument img {
+    width: 100px;
+    height: 100px;
+   
+  }
+  
+  .instrument h2 {
+    margin-top: 10px;
+  }
+  .tune {
+    margin-top: 20px;
+  }
+  .tune h2 {
+    margin-bottom: 10px;
+  }
+  .controls {
+    margin-top: 20px;
+  }
+  .controls button {
+    margin-right: 10px;
+  }
+  .player {
+    margin-top: 20px;
+  }
+  .player audio {
+    width: 100%;
+  }
