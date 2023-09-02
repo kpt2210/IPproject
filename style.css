@@ -13,7 +13,7 @@
     margin-bottom: 20px;
     padding: 2%;
   }
-  .instrument {
+  .instrument a {
     width: 200px;
     height: 200px;
     border: 1.5px solid violet;
@@ -21,11 +21,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #c1a7dc;
+    text-decoration: underline;
+    font-weight: bold;
     
   }
   .instrument img {
     width: 100px;
     height: 100px;
+    margin-top: 10px; 
+    display: block;
    
   }
   
